@@ -1,0 +1,9 @@
+Base:
+  log_level: 'debug'
+  excel_sheet: '美多商城接口测试'
+
+email:
+  smtp: 'smtp.126.com'
+  username: 'qq1290074103@126.com'
+  password: 'ELMHRBXUABDPDCVW'
+  recipient: 'qq1290074103@126.com'

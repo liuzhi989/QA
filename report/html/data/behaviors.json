@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "美多商城接口测试",
+    "children" : [ {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "login_1 登录成功",
+        "uid" : "47e97a08482b6cad",
+        "parentUid" : "06f69b8fb76aa27b897a4667737d00e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587174388230,
+          "stop" : 1587174389843,
+          "duration" : 1613
+        },
+        "flaky" : false,
+        "parameters" : [ "{'用例ID': 'login_1', '模块': '登录', '用例名称': '登录成功', 'URL': 'http://211.103.136.242:8064/authorizations/', '前置条件': '', '请求方式': 'post', '请求参数': '{\"username\":\"python\",\"password\":\"12345678\"}', '预期结果': '{\"user_id\":1,\"username\":\"python\"}', '是否执行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库名称': '', '数据库验证': ''}" ]
+      } ],
+      "uid" : "06f69b8fb76aa27b897a4667737d00e5"
+    } ],
+    "uid" : "42e18c0608b0a03632484511b3f54d08"
+  } ]
+}

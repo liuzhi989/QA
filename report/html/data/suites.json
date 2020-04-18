@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testCase",
+    "children" : [ {
+      "name" : "testCase",
+      "children" : [ {
+        "name" : "testCase",
+        "children" : [ {
+          "name" : "login_1 登录成功",
+          "uid" : "47e97a08482b6cad",
+          "parentUid" : "7cec4d1caaa6f8fb96b0ca91165fb83b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587174388230,
+            "stop" : 1587174389843,
+            "duration" : 1613
+          },
+          "flaky" : false,
+          "parameters" : [ "{'用例ID': 'login_1', '模块': '登录', '用例名称': '登录成功', 'URL': 'http://211.103.136.242:8064/authorizations/', '前置条件': '', '请求方式': 'post', '请求参数': '{\"username\":\"python\",\"password\":\"12345678\"}', '预期结果': '{\"user_id\":1,\"username\":\"python\"}', '是否执行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库名称': '', '数据库验证': ''}" ]
+        } ],
+        "uid" : "7cec4d1caaa6f8fb96b0ca91165fb83b"
+      } ],
+      "uid" : "170d471f7826d05b03ce2230ab5373af"
+    } ],
+    "uid" : "d3cf1515650a5ed7a96e23a845f006fa"
+  } ]
+}

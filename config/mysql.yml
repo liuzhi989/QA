@@ -1,0 +1,6 @@
+meiduo:
+  host: '211.103.136.242'
+  user: 'test'
+  password: 'test123456'
+  database: 'meiduo'
+  port: '7090'

@@ -1,0 +1,64 @@
+{
+  "uid" : "50bb24bd0ca83762",
+  "name" : "login_1 登录成功",
+  "fullName" : "testCase.testCase.testCase#test_case",
+  "historyId" : "54ca36689421086eedeebb4492e294c8",
+  "time" : {
+    "start" : 1587116653710,
+    "stop" : 1587116656009,
+    "duration" : 2299
+  },
+  "description" : "<font color='red'>请求URL：</font>http://211.103.136.242:8064/authorizations/<Br/>  <font color='red'>请求类型：</font>post<Br/>  <font color='red'>期望结果：</font>{\"user_id\":1,\"username\":\"python\"}<Br/>  <font color='red'>实际结果：</font>{'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJleHAiOjE1ODcyMDI3MTMsInVzZXJuYW1lIjoicHl0aG9uIiwidXNlcl9pZCI6MX0.PDaeiRgoY4x5e-Yku7kak6i64DrUqxY1kd1pmJjm7Jc', 'username': 'python', 'user_id': 1}<Br/>  ",
+  "descriptionHtml" : "<p><font color='red'>请求URL：</font>http://211.103.136.242:8064/authorizations/<Br/>  <font color='red'>请求类型：</font>post<Br/>  <font color='red'>期望结果：</font>{&quot;user_id&quot;:1,&quot;username&quot;:&quot;python&quot;}<Br/>  <font color='red'>实际结果：</font>{'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJleHAiOjE1ODcyMDI3MTMsInVzZXJuYW1lIjoicHl0aG9uIiwidXNlcl9pZCI6MX0.PDaeiRgoY4x5e-Yku7kak6i64DrUqxY1kd1pmJjm7Jc', 'username': 'python', 'user_id': 1}<Br/></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "美多商城接口测试"
+  }, {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "testCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "host",
+    "value" : "PS20190528UEPG"
+  }, {
+    "name" : "thread",
+    "value" : "9168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.testCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'用例ID': 'login_1', '模块': '登录', '用例名称': '登录成功', 'URL': 'http://211.103.136.242:8064/authorizations/', '前置条件': '', '请求方式': 'post', '请求参数': '{\"username\":\"python\",\"password\":\"12345678\"}', '预期结果': '{\"user_id\":1,\"username\":\"python\"}', '是否执行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库名称': '', '数据库验证': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50bb24bd0ca83762.json",
+  "parameterValues" : [ "{'用例ID': 'login_1', '模块': '登录', '用例名称': '登录成功', 'URL': 'http://211.103.136.242:8064/authorizations/', '前置条件': '', '请求方式': 'post', '请求参数': '{\"username\":\"python\",\"password\":\"12345678\"}', '预期结果': '{\"user_id\":1,\"username\":\"python\"}', '是否执行': 'y', 'headers': '', 'cookies': '', 'status_code': 200.0, '数据库名称': '', '数据库验证': ''}" ]
+}

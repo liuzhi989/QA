@@ -1,0 +1,2 @@
+"Status","Name","Duration in ms","Description"
+"passed","testCase.testCase.testCase#test_case","1613","<font color='red'>请求URL：</font>http://211.103.136.242:8064/authorizations/<Br/>  <font color='red'>请求类型：</font>post<Br/>  <font color='red'>期望结果：</font>{""user_id"":1,""username"":""python""}<Br/>  <font color='red'>实际结果：</font>{'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJleHAiOjE1ODcyNjA0NDQsInVzZXJuYW1lIjoicHl0aG9uIiwidXNlcl9pZCI6MX0.q1nKd0_Pip_n8zctgI0zk5ja4E-oB9opzt8H29S8Nbs', 'username': 'python', 'user_id': 1}<Br/>  "

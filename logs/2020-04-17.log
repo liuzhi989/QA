@@ -1,0 +1,27 @@
+2020-04-17 12:38:02,533  C:/Users/Admin/PycharmProjects/QA/common/logsMethod.py  DEBUG  tttttt
+2020-04-17 13:01:31,870  pymysqlUtils  ERROR  Mysql Error：执行失败！
+2020-04-17 13:01:31,872  pymysqlUtils  ERROR  (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''first_name' = '1111333222' where id = 2' at line 1")
+2020-04-17 13:35:47,978  assertUtils  ERROR  Mysql Error：与数据库不一致，数据库结果是{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}，实际Body是{'id': 2, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}。
+2020-04-17 13:36:41,143  assertUtils  ERROR  Mysql Error：与数据库不一致，数据库结果是{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}，实际Body是{'id': 2, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}。
+2020-04-17 13:37:40,466  assertUtils  ERROR  Mysql Error：与数据库不一致，数据库结果是{'id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'}，实际Body是{'id': 2, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com', 'email_active': True}。
+2020-04-17 13:39:12,299  assertUtils  ERROR  Code Error：Code不相等，预期Code是300，实际Code是200。
+2020-04-17 13:39:31,091  assertUtils  ERROR  Code Error：Code不相等，预期Code是300，实际Code是200。
+2020-04-17 14:42:59,883  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"user_id":1,"username":"python"}，实际Body是{'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJleHAiOjE1ODcxOTE4MzUsInVzZXJuYW1lIjoicHl0aG9uIiwidXNlcl9pZCI6MX0.FjAwLHHPsx3lKvkIXEptbNgFJ0SneVyglPLA3UTc7wU', 'username': 'python', 'user_id': 1}。
+2020-04-17 14:43:04,008  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"user_id":1,"username":"python"}，实际Body是{'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJleHAiOjE1ODcxOTE4MzksInVzZXJuYW1lIjoicHl0aG9uIiwidXNlcl9pZCI6MX0.1aLdfnuWMYYqOFedH4-z1Vc4GpqIAEOHE7fBcVtXwXs', 'username': 'python', 'user_id': 1}。
+2020-04-17 14:43:06,989  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"user_id":1,"username":"python"}，实际Body是{'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJleHAiOjE1ODcxOTE4NDMsInVzZXJuYW1lIjoicHl0aG9uIiwidXNlcl9pZCI6MX0.g3bDvZNVb-LUf9sy5wOqJp0LtC6gOgAMsSYi3zSsxqg', 'username': 'python', 'user_id': 1}。
+2020-04-17 14:43:10,275  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"user_id":1,"username":"python"}，实际Body是{'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Ijk1MjY3MzYzOEBxcS5jb20iLCJleHAiOjE1ODcxOTE4NDYsInVzZXJuYW1lIjoicHl0aG9uIiwidXNlcl9pZCI6MX0.vJmKwBQJ5qnq2R4p-w1agSVAhyRC_1vlkGlRsKniRJA', 'username': 'python', 'user_id': 1}。
+2020-04-17 14:43:10,360  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"non_field_errors": ["无效数据。期待为字典类型，得到的是 str 。"]}，实际Body是{'username': ['该字段是必填项。'], 'password': ['该字段是必填项。']}。
+2020-04-17 14:43:12,478  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"non_field_errors": ["无效数据。期待为字典类型，得到的是 str 。"]}，实际Body是{'username': ['该字段是必填项。'], 'password': ['该字段是必填项。']}。
+2020-04-17 14:43:14,584  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"non_field_errors": ["无效数据。期待为字典类型，得到的是 str 。"]}，实际Body是{'username': ['该字段是必填项。'], 'password': ['该字段是必填项。']}。
+2020-04-17 14:43:16,950  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"non_field_errors": ["无效数据。期待为字典类型，得到的是 str 。"]}，实际Body是{'username': ['该字段是必填项。'], 'password': ['该字段是必填项。']}。
+2020-04-17 14:43:17,113  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"username":["该字段不能为空。"]}，实际Body是{'username': ['该字段不能为空。']}。
+2020-04-17 14:43:19,182  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"username":["该字段不能为空。"]}，实际Body是{'username': ['该字段不能为空。']}。
+2020-04-17 14:43:21,284  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"username":["该字段不能为空。"]}，实际Body是{'username': ['该字段不能为空。']}。
+2020-04-17 14:43:23,347  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"username":["该字段不能为空。"]}，实际Body是{'username': ['该字段不能为空。']}。
+2020-04-17 14:43:23,640  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"non_field_errors": ["无法使用提供的认证信息登录。"]}，实际Body是{'non_field_errors': ['无法使用提供的认证信息登录。']}。
+2020-04-17 14:43:25,878  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"non_field_errors": ["无法使用提供的认证信息登录。"]}，实际Body是{'non_field_errors': ['无法使用提供的认证信息登录。']}。
+2020-04-17 14:43:28,099  assertUtils  ERROR  Body Error：Body不相等，预期Body是{"non_field_errors": ["无法使用提供的认证信息登录。"]}，实际Body是{'non_field_errors': ['无法使用提供的认证信息登录。']}。
+2020-04-17 14:44:30,611  assertUtils  ERROR  Body Error：不包含或Body错误，预期Body是{"non_field_errors": ["无效数据。期待为字典类型，得到的是 str 。"]}，实际Body是{'username': ['该字段是必填项。'], 'password': ['该字段是必填项。']}。
+2020-04-17 14:44:32,959  assertUtils  ERROR  Body Error：不包含或Body错误，预期Body是{"non_field_errors": ["无效数据。期待为字典类型，得到的是 str 。"]}，实际Body是{'username': ['该字段是必填项。'], 'password': ['该字段是必填项。']}。
+2020-04-17 14:44:35,045  assertUtils  ERROR  Body Error：不包含或Body错误，预期Body是{"non_field_errors": ["无效数据。期待为字典类型，得到的是 str 。"]}，实际Body是{'username': ['该字段是必填项。'], 'password': ['该字段是必填项。']}。
+2020-04-17 14:44:37,145  assertUtils  ERROR  Body Error：不包含或Body错误，预期Body是{"non_field_errors": ["无效数据。期待为字典类型，得到的是 str 。"]}，实际Body是{'username': ['该字段是必填项。'], 'password': ['该字段是必填项。']}。
